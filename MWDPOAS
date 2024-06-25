@@ -1,7 +1,3 @@
 def m1():
-	pkgs = random.choice(['com.facebook.katana','com.facebook.mlite','com.facebook.lite','com.facebook.adsmanager','com.facebook.liteh'])
-	build = random.choice(abc)+random.choice(abc)+random.choice(abc)
-	FBBV = str(random.randint(111111111,999999999))
-	FBCR = random.choice(["Jazz","Zong","Mobilink","Ufone"])
 	ua = random.choice(["[FBAN/Orca-Android;FBAV/229.0.0.27.214;FBBV/426817936;FBLC/en_GB;FBRV/428276664;FBCR/Nepal Telecom;FBMF/LGE;FBBD/lge;FBPN/com.facebook.orca;FBDV/LMK525;FBSV/11;FBOP/1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1422};]","[FBAN/FB4A;FBAV/179.62.27.11;FBBV/86927366;FBDM/{density=3.5,width=1356,height=2169};FBLC/en_US;FBRV/90152196;FBCR/null;FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/LGE;FBSV/5.5;FBOP/1;FBCA/armeabi-v7a:armeabi;]"])
 	return ua
