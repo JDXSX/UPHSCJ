@@ -1,3 +1,2 @@
 def m1():
-	ua = random.choice(["[FBAN/Orca-Android;FBAV/229.0.0.27.214;FBBV/426817936;FBLC/en_GB;FBRV/428276664;FBCR/Nepal Telecom;FBMF/LGE;FBBD/lge;FBPN/com.facebook.orca;FBDV/LMK525;FBSV/11;FBOP/1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1422};]","[FBAN/FB4A;FBAV/179.62.27.11;FBBV/86927366;FBDM/{density=3.5,width=1356,height=2169};FBLC/en_US;FBRV/90152196;FBCR/null;FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/LGE;FBSV/5.5;FBOP/1;FBCA/armeabi-v7a:armeabi;]"])
-	return ua
+	ua = '[FBAN/FB4A;FBAV/' + str(random.randint(11, 77)) + '.0.0.' + str(random.randrange(9, 49)) + str(random.randint(11, 77)) + ';FBBV/' + str(random.randint(1111111, 7777777)) + ';[FBAN/FB4A;FBAV/179.62.27.11;FBBV/86927366;FBDM/{density=3.5,width=1356,height=2169};FBLC/en_US;FBRV/90152196;FBCR/null;FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/LGE;FBSV/5.5;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
